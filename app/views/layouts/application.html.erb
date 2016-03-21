@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Project2</title>
+  <title>Called To Be Creative</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../app/assets/stylesheets/application.css">
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render "layouts/nav" %>
-<%= yield %>
+  <nav class="navbar-fixed-top">
+  <div class="container">
+    <ul class="nav nav-pills pull-right">
+      <li>
+        <%= link_to "Home", "/" %>
+      </li>
+      <li>
+        <%= link_to "Attend", "/attend" %>
+      </li>
+      <li>
+        <%=  link_to "Host", "/host" %>
+      </li>
+      <li>
+        <%= link_to "Be Inspired", "/be_inspired" %>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+    <%= yield %>
+  </div>
 </body>
 </html>
