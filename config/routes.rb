@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'attend' => 'pages#attend'
 
-  get 'host' => 'pages#host'
+  get 'recommend' => 'pages#recommend'
 
   get 'be_inspired' => 'pages#be_inspired'
 

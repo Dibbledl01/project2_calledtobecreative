@@ -7,8 +7,8 @@ class PagesController < ApplicationController
     render "attend"
   end
 
-  def host
-    render "host"
+  def recommend
+    render "recommend"
   end
 
   def be_inspired
