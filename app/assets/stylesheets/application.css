@@ -41,3 +41,7 @@ border: 2px solid pink;
 #home-header {
   color: #786E73
 }
+
+#post-table-body {
+  text-align: center;
+}
