@@ -1,9 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Did We Miss Something?</h1>
-<p>Let us know about any upcoming conferences or workshops you would recommend!</p>
+<h1 id="post-headline">Did We Miss Something?</h1>
+<p id="post-paragraph">Let us know about any upcoming conferences or workshops you would recommend!</p>
+
 <div id="post-table-body">
-<table class="table">
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Title</th>
@@ -16,7 +17,7 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.title %></td>
-        <td><%= post.content %></td>
+        <td><%= truncate(post.content, length: 100) %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>

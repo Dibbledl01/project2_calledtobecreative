@@ -12,25 +12,25 @@
 </head>
 <body>
   <nav class="navbar-fixed-top">
-  <div class="container">
-    <ul class="nav nav-pills pull-right">
-      <li>
-        <%= link_to "Home", "/" %>
-      </li>
-      <li>
-        <%= link_to "Attend", "/attend" %>
-      </li>
-      <li>
-        <%=  link_to "Recommend", "/recommend" %>
-      </li>
-      <li>
-        <%= link_to "Be Inspired", "/be_inspired" %>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="container">
+      <ul class="nav nav-pills pull-right">
+        <li>
+          <%= link_to "Home", root_url %>
+        </li>
+        <li>
+          <%= link_to "Attend", attend_url %>
+        </li>
+        <li>
+          <%= link_to "Post Recommendation", posts_url %>
+        </li>
+        <li>
+          <%= link_to "Be Inspired", be_inspired_url %>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <%= yield %>
-  </div>
+  <%= yield %>
+</div>
 </body>
 </html>
