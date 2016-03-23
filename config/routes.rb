@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :posts
+  resources :posts 
+
   root 'pages#home'
 
   get 'home' => 'pages#home'

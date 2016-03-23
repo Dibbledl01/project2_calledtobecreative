@@ -15,7 +15,6 @@
 
   <tbody>
     <% @posts.each do |post| %>
-    <%= render "posts/post", post: post %>
       <tr>
         <td><%= post.title %></td>
         <td><%= truncate(post.content, length: 100) %></td>

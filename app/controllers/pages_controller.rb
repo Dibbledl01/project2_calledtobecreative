@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
   def home
+    render "home"
   end
 
   def attend
@@ -10,3 +11,4 @@ class PagesController < ApplicationController
   def be_inspired
     render "be_inspired"
   end
+end
