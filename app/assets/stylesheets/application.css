@@ -15,7 +15,21 @@
 */
 
 body {
-  padding-top: 70px;
+  padding-top: 80px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-header {
+  font-family: "Scriptina";
+  margin: auto;
+}
+
+li a {
+  color: #786E73;
+  font-size: 14pt;
 }
 
 #home-body {
@@ -211,7 +225,11 @@ tbody tr:nth-of-type(odd) {
 
 #edit-header {
   font-family: "Quicksand";
-  font-size: 50pt;
+  font-size: 30pt;
+}
+
+#show-post-title {
+  font-family: "Quicksand";
 }
 
 #post-show-content {

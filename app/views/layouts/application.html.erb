@@ -13,20 +13,25 @@
 <body>
   <nav class="navbar-fixed-top">
     <div class="container">
-      <ul class="nav nav-pills pull-right">
-        <li>
-          <%= link_to "Home", root_url %>
-        </li>
-        <li>
-          <%= link_to "Attend", attend_url %>
-        </li>
-        <li>
-          <%= link_to "Post Recommendation", posts_url %>
-        </li>
-        <li>
-          <%= link_to "Be Inspired", be_inspired_url %>
-        </li>
-      </ul>
+      <div class="page-header">
+        <ul class="nav nav-pills pull-right">
+          <li>
+            <%= link_to "Home", root_url %>
+          </li>
+          <li>
+            <%= link_to "Attend", attend_url %>
+          </li>
+          <li>
+            <%= link_to "Post Recommendation", posts_url %>
+          </li>
+          <li>
+            <%= link_to "Be Inspired", be_inspired_url %>
+          </li>
+        </ul>
+        <h1>
+          <%= link_to "Called To Be Creative", "/" %>
+        </h1>
+      </div>
     </div>
   </nav>
 
