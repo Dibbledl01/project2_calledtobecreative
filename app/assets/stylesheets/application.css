@@ -267,3 +267,80 @@ tbody tr:nth-of-type(odd) {
   color: #786E73;
   font-size: 15pt;
 }
+
+#be-inspired-intro-section {
+  width: 100%;
+  height: 150px;
+}
+
+#be-inspired-intro-content {
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  color: #786E73;
+}
+
+#be-inspired-jessica {
+  width: 100%;
+  height: 300px;
+  background-color: #f6dce1;
+  opacity: 0.8;
+}
+
+#jessica-image-container {
+  width: 450px;
+  height: 300px;
+  background-image: url(http://i.imgur.com/1hlc4jF.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#be-inspired-liz {
+  width: 100%;
+  height: 300px;
+  opacity: 0.8;
+}
+
+#liz-image-container {
+  width: 450px;
+  height: 300px;
+  background-image: url(http://i.imgur.com/clOCcTg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+
+#be-inspired-kate {
+  width: 100%;
+  height: 300px;
+  background-color: #f6dce1;
+  opacity: 0.8;
+}
+
+#kate-image-container {
+  width: 450px;
+  height: 300px;
+  background-image: url(http://i.imgur.com/z3ooCBi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#be-inspired-chloe {
+  width: 100%;
+  height: 300px;
+  opacity: 0.8;
+}
+
+#chloe-image-container {
+  width: 450px;
+  height: 300px;
+  background-image: url(http://i.imgur.com/2han8Dz.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
