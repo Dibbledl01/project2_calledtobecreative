@@ -1,88 +1,99 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
 
- body {
-   padding-top: 70px;
- }
+body {
+  padding-top: 70px;
+}
 
- #home-body {
-   background-image: url(http://i.imgur.com/XXoRATn.jpg?1);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   text-align: center;
-   margin-top: 100px;
- }
+#home-body {
+  background-image: url(http://i.imgur.com/XXoRATn.jpg?1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin-top: 100px;
+}
 
- #home-content-box {
-   background-color: rgba(255,255,255,0.7);
-   width: 780px;
-   height: 165px;
-   text-align: center;
-   margin: 0 auto;
-   padding-top: 8px;
-   border: 2px solid pink;
- }
+#home-content-box {
+  background-color: rgba(255,255,255,0.7);
+  width: 780px;
+  height: 165px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8px;
+  border: 2px solid pink;
+}
 
- #home-header {
-   color: #786E73;
- }
+#home-header {
+  color: #786E73;
+  font-family: "Quicksand";
+}
 
- #join-us-section {
-   width: 100%;
-   height: 327px;
-   background-color: #f6dce1;
- }
+#join-us-section {
+  width: 100%;
+  /*height: 327px;*/
+  background-image: url(http://i.imgur.com/r1U6WpQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
 
- #join-us-content-box {
-   background-color: rgba(255,255,255,0.7);
-   width: 780px;
-   height: 165px;
-   text-align: center;
-   margin: -19px auto;
-   padding-top: 30px;
-   border: 2px solid pink;
- }
+#join-us-content-box {
+  background-color: rgba(255,255,255,0.7);
+  width: 780px;
+  height: 165px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  border: 2px solid pink;
+}
 
- #join-us-header {
-   color: #786E73;
- }
+#join-us-header {
+  color: #786E73;
+  font-family: "Quicksand";
+}
 
- #post-headline {
-   text-align: center;
- }
+tbody tr:nth-of-type(odd) {
+  background-color: #f6dce1;
+}
 
- #post-paragraph {
-   text-align: center;
- }
+#post-header {
+  text-align: center;
+  font-family: "Quicksand";
+}
 
- #post-table-body {
-   text-align: center;
-   margin: 0 auto;
- }
+#post-paragraph {
+  text-align: center;
+}
 
- #new-post-content {
-   text-align: center;
- }
+#post-table-body {
+  text-align: center;
+  margin: 0 auto;
+}
 
- #post-edit-content {
-   text-align: center;
- }
+#new-post-content {
+  text-align: center;
+}
 
- #post-show-content {
-   text-align: center;
- }
+#post-edit-content {
+  text-align: center;
+}
+
+#post-show-content {
+  text-align: center;
+}

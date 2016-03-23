@@ -12,7 +12,7 @@
     <div id="heart">
       <%= form_for(Heart.new) do |f|%>
       <%= f.hidden_field :post_id, value: @post.id %>
-      <%= f.submit "<3" %>
+      <%= f.submit "♥", class: "btn btn-danger" %>
       <% end %>
     </div>
     <%= @post.title %>
