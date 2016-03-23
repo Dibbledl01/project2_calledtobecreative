@@ -9,7 +9,15 @@
 
 <p>
   <h2>
+    <div id="heart">
+      <%= form_for(Heart.new) do |f|%>
+      <%= f.hidden_field :post_id, value: @post.id %>
+      <%= f.submit "<3" %>
+      <% end %>
+    </div>
     <%= @post.title %>
+
+
   </h2>
 </p>
 
@@ -23,7 +31,7 @@
   </small>
 
   <small>
-    <%= pluralize(@post.hearts.count, "heart") %> 
+    <%= pluralize(@post.hearts.count, "heart") %>
   </small>
 
 </p>
