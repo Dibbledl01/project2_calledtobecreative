@@ -1,11 +1,9 @@
 <div id="post-show-content">
-
-<% if notice.present? %>
-<p class="alert alert-info">
-<%= notice %>
-</p>
-<% end %>
-</div>
+  <% if notice.present? %>
+  <p class="alert alert-info">
+    <%= notice %>
+  </p>
+  <% end %>
 
 <p>
   <h2>
@@ -16,8 +14,6 @@
       <% end %>
     </div>
     <%= @post.title %>
-
-
   </h2>
 </p>
 
@@ -33,6 +29,6 @@
   <small>
     <%= pluralize(@post.hearts.count, "heart") %>
   </small>
-
 </p>
+<%= link_to 'Back', posts_path %>
 </div>
