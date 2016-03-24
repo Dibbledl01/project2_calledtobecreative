@@ -55,6 +55,7 @@ li a {
 #home-header {
   color: #786E73;
   font-family: "Cinzel", serif;
+  font-size: 30pt;
 }
 
 #join-us-section {
@@ -197,7 +198,7 @@ li a {
   color: white;
   text-align: center;
   font-size: 40pt;
-  padding-top: 130px;
+  padding-top: 100px;
   opacity: 1.0;
   font-family: "Cinzel", serif;
 }
@@ -327,10 +328,14 @@ tbody tr:nth-of-type(odd) {
 #jessica-image-container {
   width: 450px;
   height: 300px;
-  background-image: url(http://i.imgur.com/1hlc4jF.png);
+  background-image: url(http://i.imgur.com/EZmighQ.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#jessica-paragraph {
+  display: inline-block;
 }
 
 #be-inspired-liz {
@@ -342,7 +347,7 @@ tbody tr:nth-of-type(odd) {
 #liz-image-container {
   width: 450px;
   height: 300px;
-  background-image: url(http://i.imgur.com/clOCcTg.png);
+  background-image: url(http://i.imgur.com/rVcCqg7.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,7 +364,7 @@ tbody tr:nth-of-type(odd) {
 #kate-image-container {
   width: 450px;
   height: 300px;
-  background-image: url(http://i.imgur.com/z3ooCBi.png);
+  background-image: url(http://i.imgur.com/8NJBEe9.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
