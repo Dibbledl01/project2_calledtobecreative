@@ -117,12 +117,15 @@ li a {
   background-image: url(http://i.imgur.com/6xKTU7Q.png);
   background-position: left center;
   background-repeat: no-repeat;
-  padding-left: 650px;
-  padding-top: 75px;
+  padding-left: 450px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 #north-header {
   font-family: "Cinzel", serif;
+  color: white;
+  font-size: 30pt;
 }
 
 #north-header2 {
@@ -133,47 +136,30 @@ li a {
   font-family: "Quicksand", sans-serif;
 }
 
-/*#north-image-container {
-  width: 450px;
-  height: 300px;
-  background-image: url(http://i.imgur.com/6xKTU7Q.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#north-paragraph {
-  color: white;
-  text-align: center;
-  font-size: 40pt;
-  padding-top: 130px;
-  opacity: 1.0;
-  font-family: "Cinzel", serif;
-}*/
-
 #join-us-south {
   width: 100%;
   height: 300px;
+  background-color: white;
   opacity: 0.8;
+  background-image: url(http://i.imgur.com/EHn9dEP.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 550px;
+  padding-left: 100px;
+  padding-top: 20px;
+  text-align: center;
 }
 
-#south-image-container {
-  width: 450px;
-  height: 300px;
-  background-image: url(http://i.imgur.com/EHn9dEP.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
+#south-header {
+  font-family: "Cinzel", serif;
+}
+
+#south-header2 {
+  font-family: "Quicksand", serif;
 }
 
 #south-paragraph {
-  color: white;
-  text-align: center;
-  font-size: 40pt;
-  padding-top: 130px;
-  opacity: 1.0;
-  font-family: "Cinzel", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #join-us-midwest {
@@ -181,49 +167,51 @@ li a {
   height: 300px;
   background-color: #f6dce1;
   opacity: 0.8;
+  background-image: url(http://i.imgur.com/6xsfN1T.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 550px;
+  padding-top: 17px;
+  text-align: center;
 }
 
-#midwest-image-container {
-  width: 450px;
-  height: 300px;
-  background-image: url(http://i.imgur.com/NovtsRD.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#midwest-header {
+  font-family: "Cinzel", serif;
+  color: white;
+}
+
+#midwest-header2 {
+  font-family: "Quicksand", serif;
 }
 
 #midwest-paragraph {
-  color: white;
-  text-align: center;
-  font-size: 40pt;
-  padding-top: 130px;
-  opacity: 1.0;
-  font-family: "Cinzel", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #join-us-pacific {
   width: 100%;
   height: 300px;
+  background-color: white;
   opacity: 0.8;
+  background-image: url(http://i.imgur.com/qW7sNzP.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 550px;
+  padding-left: 100px;
+  padding-top: 40px;
+  text-align: center;
 }
 
-#pacific-image-container {
-  width: 450px;
-  height: 300px;
-  background-image: url(http://i.imgur.com/k5b4kdN.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
+#pacific-header {
+  font-family: "Cinzel", serif;
+}
+
+#pacific-header2 {
+  font-family: "Quicksand", serif;
 }
 
 #pacific-paragraph {
-  color: white;
-  text-align: center;
-  font-size: 40pt;
-  padding-top: 100px;
-  opacity: 1.0;
-  font-family: "Cinzel", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 tbody tr:nth-of-type(odd) {
@@ -356,7 +344,7 @@ tbody tr:nth-of-type(odd) {
   padding-top: 85px;
   padding-bottom: 100px;
   font-family: "Quicksand", sans-serif;
-  font-size: 20pt;
+  font-size: 17pt;
   text-align: center;
 }
 
@@ -372,7 +360,7 @@ tbody tr:nth-of-type(odd) {
   padding-top: 40px;
   padding-bottom: 100px;
   font-family: "Quicksand", sans-serif;
-  font-size: 20pt;
+  font-size: 17pt;
   text-align: center;
 }
 
@@ -389,7 +377,7 @@ tbody tr:nth-of-type(odd) {
   padding-top: 85px;
   padding-bottom: 100px;
   font-family: "Quicksand", sans-serif;
-  font-size: 20pt;
+  font-size: 17pt;
   text-align: center;
 }
 
@@ -397,14 +385,14 @@ tbody tr:nth-of-type(odd) {
   width: 100%;
   height: 300px;
   background-color: white;
-  background-image: url(http://i.imgur.com/2han8Dz.png);
+  background-image: url(http://i.imgur.com/jkCd1uf.png);
   background-position: right center;
   background-repeat: no-repeat;
   padding-right: 500px;
   padding-left: 100px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 100px;
   font-family: "Quicksand", sans-serif;
-  font-size: 20pt;
+  font-size: 17pt;
   text-align: center;
 }
