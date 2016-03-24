@@ -2,7 +2,7 @@ Brittany Branson's WDI Project 2
 
 Called To Be Creative
 
-Called To Be Creative is a website for creative entrepreneurs (photographers, event planners, florists, artists, etc.) to search for upcoming conferences, workshops, and retreats in their region. Though most of the content is controlled by the administrator (me), a forum exists for creatives to post about any upcoming opportunities they feel others should know about. Each post may also be "hearted" by clicking the heart icon button. 
+Called To Be Creative is a website for creative entrepreneurs (photographers, event planners, florists, artists, etc.) to search for upcoming conferences, workshops, and retreats in their region. Though most of the content is controlled by the administrator (me), a forum exists for creatives to post about any upcoming opportunities they feel others should know about. Each post may also be "hearted" by clicking the heart icon button.
 
 TECHNOLOGIES USED
 HTML
@@ -24,3 +24,4 @@ Right now, there are a few things I would love to clean up.
 1. I have not created a "user" functionality. I really want to code a login system and  encourage a user to create a profile. That way, if he/she were to post to the public forum, that post would be associated with the profile.
 2. The public forum is a bit too "public" at the moment. Meaning, everyone is free to "show", "edit", and "destroy" posts. I want to keep the "destroy" option private (for my own use). I ran out of time (for getting the project up and running by Thursday), and kept the CRUD functionality public.
 3. I want to create another model called "conferences." This new database will contain information about upcoming conferences (perhaps even a year or two out). I would then love to code my site to allow it to render that information about the conferences, especially those that are around the corner and "upcoming." I would then love for the site to get rid of rendering information about conferences that have passed.
+4. I used scaffold xD Robin has already yelled at me for doing so. Won't happen again O:-)
