@@ -1,28 +1,26 @@
-== README
+Brittany Branson's WDI Project 2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Called To Be Creative
 
-Things you may want to cover:
+Called To Be Creative is a website for creative entrepreneurs (photographers, event planners, florists, artists, etc.) to search for upcoming conferences, workshops, and retreats in their region. Though most of the content is controlled by the administrator (me), a forum exists for creatives to post about any upcoming opportunities they feel others should know about. Each post may also be "hearted" by clicking the heart icon button. 
 
-* Ruby version
+TECHNOLOGIES USED
+HTML
+CSS
+Ruby
+Rails
+postgreSQL
+ActiveRecord
+Heroku
+Bootstrap
 
-* System dependencies
+APPROACH TAKEN
 
-* Configuration
+When initially thinking about the project, I definitely wanted to incorporate conference and workshop related data. I wanted the site to be used as a tool for creative entrepreneurs to find a comprehensive listing of conferences and workshops (instead of forcing them to find that information on each opportunity's individual website). I also wanted to, ideally, incorporate a social aspect: a place where users could interact and communicate about workshops and conferences. With regards to establishing Ruby on Rails relationship, I was inclined to create "conferences" and "attendees"...which led to the establishment of a "many-to-many" relationship. The more I thought about it, the more I realized this relationship wasn't exactly necessary. My site would not be the site on which creatives would register for their conferences. It is simply an informational tool. Plus, I (as the administrator) wanted to keep control of the content of the site, considering not every conference and workshop is high quality. But, I did want to incorporate an opportunity for users to let me know about a workshop or conference they personally felt was worthwhile. I initially considered a form, but that was a bit impersonal. Up until this point, I was ignoring my desire to incorporate a social aspect. And so, I created a public "forum" that is, essentially, a public blog. Users are able to post about upcoming opportunities (with a title and content) for all to see. Furthermore, I found a tutorial on adding heart buttons to blog posts (allowing a user to "heart" a blog post he/she particularly liked). I added this functionality with the hopes that the number of hearts associated with each blog post (ah ha! a one to many relationship!) would help me (as the administrator) evaluate whether or not a recommended conference or workshop was worth officially adding to the site.
 
-* Database creation
+UNSOLVED PROBLEMS
+Right now, there are a few things I would love to clean up.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+1. I have not created a "user" functionality. I really want to code a login system and  encourage a user to create a profile. That way, if he/she were to post to the public forum, that post would be associated with the profile.
+2. The public forum is a bit too "public" at the moment. Meaning, everyone is free to "show", "edit", and "destroy" posts. I want to keep the "destroy" option private (for my own use). I ran out of time (for getting the project up and running by Thursday), and kept the CRUD functionality public.
+3. I want to create another model called "conferences." This new database will contain information about upcoming conferences (perhaps even a year or two out). I would then love to code my site to allow it to render that information about the conferences, especially those that are around the corner and "upcoming." I would then love for the site to get rid of rendering information about conferences that have passed.
