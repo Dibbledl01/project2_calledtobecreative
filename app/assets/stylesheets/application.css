@@ -58,6 +58,10 @@ li a {
   font-size: 30pt;
 }
 
+#home-p {
+  font-family: "Quicksand", sans-serif;
+}
+
 #join-us-section {
   width: 100%;
   /*height: 327px;*/
@@ -88,11 +92,13 @@ li a {
 #join-us-header2 {
   color: #786E73;
   font-size: 15pt;
+  font-family: "Quicksand", sans-serif;
 }
 
 #join-us-intro-section {
   width: 100%;
   height: 150px;
+  font-family: "Quicksand", sans-serif;
 }
 
 #join-us-intro-content {
@@ -108,12 +114,29 @@ li a {
   height: 300px;
   background-color: #f6dce1;
   opacity: 0.8;
+  background-image: url(http://i.imgur.com/6xKTU7Q.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 650px;
+  padding-top: 75px;
 }
 
-#north-image-container {
+#north-header {
+  font-family: "Cinzel", serif;
+}
+
+#north-header2 {
+  font-family: "Quicksand", serif;
+}
+
+#north-paragraph {
+  font-family: "Quicksand", sans-serif;
+}
+
+/*#north-image-container {
   width: 450px;
   height: 300px;
-  background-image: url(http://i.imgur.com/pNkf0Ti.jpg);
+  background-image: url(http://i.imgur.com/6xKTU7Q.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +149,7 @@ li a {
   padding-top: 130px;
   opacity: 1.0;
   font-family: "Cinzel", serif;
-}
+}*/
 
 #join-us-south {
   width: 100%;
@@ -303,11 +326,13 @@ tbody tr:nth-of-type(odd) {
 #be-inspired-header2 {
   color: #786E73;
   font-size: 15pt;
+  font-family:"Quicksand", sans-serif;
 }
 
 #be-inspired-intro-section {
   width: 100%;
   height: 150px;
+  font-family: "Quicksand", sans-serif;
 }
 
 #be-inspired-intro-content {
@@ -323,35 +348,32 @@ tbody tr:nth-of-type(odd) {
   height: 300px;
   background-color: #f6dce1;
   opacity: 0.8;
-}
-
-#jessica-image-container {
-  width: 450px;
-  height: 300px;
   background-image: url(http://i.imgur.com/EZmighQ.png);
-  background-position: center;
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#jessica-paragraph {
-  display: inline-block;
+  padding-left: 400px;
+  padding-right: 100px;
+  padding-top: 85px;
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20pt;
+  text-align: center;
 }
 
 #be-inspired-liz {
   width: 100%;
   height: 300px;
-  opacity: 0.8;
-}
-
-#liz-image-container {
-  width: 450px;
-  height: 300px;
+  background-color: white;
   background-image: url(http://i.imgur.com/rVcCqg7.png);
-  background-position: center;
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
+  padding-right: 500px;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20pt;
+  text-align: center;
 }
 
 #be-inspired-kate {
@@ -359,29 +381,30 @@ tbody tr:nth-of-type(odd) {
   height: 300px;
   background-color: #f6dce1;
   opacity: 0.8;
-}
-
-#kate-image-container {
-  width: 450px;
-  height: 300px;
   background-image: url(http://i.imgur.com/8NJBEe9.png);
-  background-position: center;
+  background-position: left center;
   background-repeat: no-repeat;
-  background-size: cover;
+  padding-left: 400px;
+  padding-right: 100px;
+  padding-top: 85px;
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20pt;
+  text-align: center;
 }
 
 #be-inspired-chloe {
   width: 100%;
   height: 300px;
-  opacity: 0.8;
-}
-
-#chloe-image-container {
-  width: 450px;
-  height: 300px;
+  background-color: white;
   background-image: url(http://i.imgur.com/2han8Dz.png);
-  background-position: center;
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
+  padding-right: 500px;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20pt;
+  text-align: center;
 }
