@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   resources :posts
   resources :hearts, only: :create
+  resources :conferences
 
   root 'pages#home'
 

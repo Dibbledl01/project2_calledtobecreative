@@ -11,10 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160322193523) do
+ActiveRecord::Schema.define(version: 20160329175602) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "conferences", force: :cascade do |t|
+    t.string   "title"
+    t.string   "location"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.decimal  "cost",           precision: 8, scale: 2
+    t.string   "theme"
+    t.string   "description"
+    t.string   "conference_url"
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
+    t.integer  "region_id"
+  end
+
+  add_index "conferences", ["region_id"], name: "index_conferences_on_region_id", using: :btree
 
   create_table "hearts", force: :cascade do |t|
     t.integer "post_id"
@@ -27,4 +43,11 @@ ActiveRecord::Schema.define(version: 20160322193523) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "regions", force: :cascade do |t|
+    t.string   "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "conferences", "regions"
 end
