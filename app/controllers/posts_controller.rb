@@ -23,6 +23,8 @@ class PostsController < ApplicationController
 
   # POST /posts
   # POST /posts.json
+
+  #  I know we talked about this, but definitely no need to use json at this point. 
   def create
     @post = Post.new(post_params)
 

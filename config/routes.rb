@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :hearts, only: :create
   resources :conferences
 
+  # so you actually don't need both the root and line 10  get 'home' => 'pages#home'
+  # one or the other should work fine :)
   root 'pages#home'
 
   get 'home' => 'pages#home'
