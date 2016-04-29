@@ -345,6 +345,12 @@ tbody tr:nth-of-type(odd) {
   text-align: center;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: pink;
+  border-color: pink;
+}
+
 a {
   color: pink;
 }
