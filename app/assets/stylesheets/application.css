@@ -323,6 +323,34 @@ tbody tr:nth-of-type(odd) {
   font-family: "Quicksand", sans-serif;
 }
 
+#title {
+  color: pink;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+#quote {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+#author {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+a {
+  color: pink;
+}
+
+
+
 #be-inspired-intro-content {
   width: 550px;
   text-align: center;
