@@ -15,42 +15,32 @@
 //= require turbolinks
 //= require_tree .
 
-var quoteArray = ["Tell me and I forget, teach me and I may remember, involve me and I learn.",
-  "By failing to prepare, you are preparing to fail.",
-  "Genius without education is like silver in the mine.",
+var quoteArray = ["I am seeking. I am striving. I am in it with all my heart.",
+  "Creativity takes courage.",
+  "Whether you succeed or not is irrelevant, there is no such thing. Making your unknown known is the important thing.",
   "The best preparation for tomorrow is doing your best today.",
-  "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
-  "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
-  "Better three hours too soon than a minute too late.",
-  "In order to succeed, we must first believe that we can.",
-  "Don't watch the clock; do what it does. Keep going.",
-  "You are never too old to set another goal or to dream a new dream.",
-  "The secret of getting ahead is getting started.",
-  "Progress is impossible without change, and those who cannot change their minds cannot change anything.",
-  "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
-  "Coming together is a beginning; keeping together is progress; working together is success.",
-  "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-  "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.",
-  "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time."
+  "If I create from the heart, nearly everything works; if from the head, almost nothing.",
+  "Have no fear of perfection, you'll never reach it.",
+  "There's no retirement for an artist, it's your way of living so there's no end to it.",
+  "Great things are done by a series of small things brought together.",
+  "If you ask me what I came to do in this world, I, an artist, will answer you: I am here to live out loud!",
+  "Do not fear mistakes - there are none.",
+  "If you always do what you always did - you'll always get what you always got.",
+  "I invent nothing, I rediscover."
 ];
 
-var authorArray = ["Benjamin Franklin",
-  "Benjamin Franklin",
-  "Benjamin Franklin",
+var authorArray = ["Vincent van Gogh",
+  "Henri Matisse",
+  "Georgia O'Keeffe",
   "H. Jackson Brown, Jr",
-  "Dr. Seuss",
-  "William Shakespeare",
-  "William Shakespeare",
-  "Nikos Kazantzakis",
-  "Sam Levenson",
-  "C. S. Lewis",
-  "Mark Twain",
-  "George Bernard Shaw",
-  "Barack Obama",
-  "Henry Ford",
-  "Winston Churchill",
-  "Steve Jobs",
-  "Steve Jobs"
+  "Marc Chagall",
+  "Salvador Dali",
+  "Henry Moore",
+  "Vincent van Gogh",
+  "Emile Zola",
+  "Miles David",
+  "Unknown",
+  "Auguste Rodin"
 ];
 
 $("#quote").html(quoteArray[0]);
