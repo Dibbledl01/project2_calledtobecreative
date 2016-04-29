@@ -5,8 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Region.destroy_all
 Conference.destroy_all
+Region.destroy_all
+
 north = Region.create(title: "North")
 south = Region.create(title: "South")
 midwest = Region.create(title: "Midwest")
